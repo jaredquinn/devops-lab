@@ -1,7 +1,7 @@
 var os = require('os');
 var http = require('http');
 var port = process.env.PORT || 8902;
-var bindip = "127.0.0.1";
+var bindip = "0.0.0.0";
 
 http.createServer(function (request, response) {
   response.writeHead(200, {'Content-Type': 'text/plain'});
