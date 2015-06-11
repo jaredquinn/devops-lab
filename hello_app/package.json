@@ -2,9 +2,9 @@
   "name": "hello_app",
   "version": "0.0.0",
   "description": "hello_app",
-  "main": "hello.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node hello.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

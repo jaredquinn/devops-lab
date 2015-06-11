@@ -1,6 +1,6 @@
 var os = require('os');
 var http = require('http');
-var port = 8902;
+var port = process.env.PORT || 8902;
 var bindip = "127.0.0.1";
 
 http.createServer(function (request, response) {
